@@ -2,10 +2,10 @@ print "Welcome to the Ben's Game. You choose the path for this story. What's you
 
 name = raw_input("> ")
 
-if name == "Ben" or "Benjamin":
+if name == "Ben" or name == "Benjamin":
 	print "Ahhh, %s, the game maker. Do you dare take your own challenge? Y or N" % name
 
-elif name == "Mila" or "mila":
+elif name == "Mila" or name == "mila" or name == "Bean":
 	print "Hello %s. You are Ben's sister, are you not? Shall we begin? Y or N" % name
 
 else:
@@ -80,7 +80,7 @@ if answer == "Y" or answer == "y":
 			house3_choice2 = raw_input("> ")
 
 			if house3_choice2 == "1":
-				print "As you walk up the left stairs, they begin to shake. Next thing you know, they collapse and you slide in to a pit opf snakes. The end."
+				print "As you walk up the left stairs, they begin to shake. Next thing you know, they collapse and you slide in to a pit of snakes. The end."
 			else:
 				print "As you walk up the right staircase, the air gets cooler and smells of saltwater. You find yourself sailing away on a boat to your own private island."
 
