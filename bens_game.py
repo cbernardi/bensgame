@@ -6,7 +6,7 @@ print "Welcome %s. Shall we begin? Y or N" % name
 
 answer = raw_input("> ")
 
-if answer == "Y":
+if answer == "Y" or answer == "y":
 	print "You're in a neighborhood with four houses. Which house do you choose? 1, 2, 3, 4"
 
 	house = raw_input("> ")
@@ -82,26 +82,16 @@ if answer == "Y":
 
 	# house 4
 	else:
-		print "The second house is a small cottage. What do you do?"
-		print "1. Go inside."
-		print "2. Pick another house."
+		print "The fourth house is not a house at all. There's a large dark shape coming at you. What do you do?"
+		print "1. Run!"
+		print "2. Pinch yourself and hope its a dream."
 
 		house2_choice1 = raw_input("> ")
 
 		if house2_choice1 == "1":
-			print "Inside is dark and there are two hallways. Which one do you go down?"
-			print "1. Go left."
-			print "2. Go right."
-
-			house2_choice2 = raw_input("> ")
-
-			if house2_choice2 == "1":
-				print "You get sucked into a time portal and find yourself surrounded by lava. You disintegrate."
-			else:
-				print "Goog ending"
-
+			print "You run for your life and escape to live another day. Well done!"
 		else:
-			print "Really? You are changing your mind?! I quit. The end."
+			print "You pinch yourself only to realize that you are not dreaming and giant is charging at you. The end."
 
 else:
 	print "Sorry to hear that %s. Maybe another time." % name
