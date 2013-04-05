@@ -2,7 +2,14 @@ print "Welcome to the Ben's Game. You choose the path for this story. What's you
 
 name = raw_input("> ")
 
-print "Welcome %s. Shall we begin? Y or N" % name
+if name == "Ben" or "Benjamin":
+	print "Ahhh, %s, the game maker. Do you dare take your own challenge? Y or N" % name
+
+elif name == "Mila" or "mila":
+	print "Hello %s. You are Ben's sister, are you not? Shall we begin? Y or N" % name
+
+else:
+	print "Welcome %s. Shall we begin? Y or N" % name
 
 answer = raw_input("> ")
 
