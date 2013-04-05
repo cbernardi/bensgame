@@ -1,7 +1,7 @@
 Ben's Game
 ========
 
-Simple choose your own adventure game written in Python.
+Simple choose your own adventure game written in Python for Terminal or Command Line.
 
 *Play if you dare!*
 
